@@ -21,8 +21,7 @@ pod 'SweetAutoLayout'
 ```
 
 ## Author
-
-chunyang li, chunyang.li.o@nio.com
+菜鸡
 
 ## License
 

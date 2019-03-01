@@ -1,0 +1,22 @@
+{
+  "name": "SweetAutoLayout",
+  "version": "0.1.0",
+  "summary": "A short description of SweetAutoLayout.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/chunyang li/SweetAutoLayout",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "chunyang li": "chunyang.li.o@nio.com"
+  },
+  "source": {
+    "git": "https://github.com/chunyang li/SweetAutoLayout.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SweetAutoLayout/Classes/**/*"
+}

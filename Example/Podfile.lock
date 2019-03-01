@@ -1,0 +1,16 @@
+PODS:
+  - SweetAutoLayout (0.1.0)
+
+DEPENDENCIES:
+  - SweetAutoLayout (from `../`)
+
+EXTERNAL SOURCES:
+  SweetAutoLayout:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SweetAutoLayout: 964750e9717680450bd6054dc249485a2b361e01
+
+PODFILE CHECKSUM: 57f392e7be19f1a5744733178424a93ab9f6da38
+
+COCOAPODS: 1.6.0

@@ -1,0 +1,6 @@
+framework module SweetAutoLayout {
+  umbrella header "SweetAutoLayout-umbrella.h"
+
+  export *
+  module * { export * }
+}

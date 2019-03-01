@@ -7,17 +7,27 @@
 //
 
 import UIKit
+import SweetAutoLayout
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        let v: UIView = UIView()
+        self.view.addSubview(v)
+        v.backgroundColor = .red
+        v.translatesAutoresizingMaskIntoConstraints = false
+        if #available(iOS 11.0, *) {
+            (self.view.layoutGuide.left == v.left).isActive = true
+            (v.right == self.view.layoutGuide.right).isActive = true
+            (self.view.layoutGuide.top == v.top).isActive = true
+            (v.bottom == self.view.layoutGuide.bottom).isActive = true
+        } else {
+            (self.topLayoutGuide.bottom == v.top).isActive = true
+            (v.bottom == self.bottomLayoutGuide.top).isActive = true
+            (self.view.left == v.left).isActive = true
+            (v.right == self.view.right).isActive = true
+        }
     }
 
 }

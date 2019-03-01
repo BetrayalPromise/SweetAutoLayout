@@ -1,0 +1,768 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		041E4894D628E9212B04D5FDBF602FAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		0A74ED8B3C4A3A933D3096A06B8AA7C9 /* Pods-SweetAutoLayout_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C4F60C3A54B96BE7284BF38A7B4AEFF3 /* Pods-SweetAutoLayout_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1478DC888F77C25BD89FBD3CB234D2D1 /* SweetAutoLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DDEFE103DE6ED59A066A3A9A0F1FCCB4 /* SweetAutoLayout-dummy.m */; };
+		3E23448EFD9E9758D2F4AF1A1FFB335F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		4F5B4C0A3F6A2939474FF30FD4AEA9D8 /* Pods-SweetAutoLayout_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4CFD3B1F72342603FD48C7B202AFB2 /* Pods-SweetAutoLayout_Tests-dummy.m */; };
+		571C396C53E637C987CC057871EA858F /* SweetAutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AE749ED338A977D13B7C70C2840343 /* SweetAutoLayout.swift */; };
+		8EB263B8ACA16B2EC81A8BD4A8B043F5 /* Pods-SweetAutoLayout_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 023036B0725C46D8720C03DF2F4FB9CF /* Pods-SweetAutoLayout_Example-dummy.m */; };
+		C4A1018273B5250C55170143AFE0B1A2 /* SweetAutoLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0218FE02BA4407605923DD73E7C502BF /* SweetAutoLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D98978B2D2165B614E77CEC09E197DBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		EDA8DB50B3A679338A1E5405D0B430EB /* Pods-SweetAutoLayout_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 91372E011725B9A0F48714E3129BFE63 /* Pods-SweetAutoLayout_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B4B5DBFC3C47D787AE5AC9C7C817521B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64DFA514E25FD01238813AC794201C05;
+			remoteInfo = "Pods-SweetAutoLayout_Example";
+		};
+		D75801F04EFA2D8976CC8C06407F8DB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9666E5E94DF880739E7E40AEBA60DADB;
+			remoteInfo = SweetAutoLayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0218FE02BA4407605923DD73E7C502BF /* SweetAutoLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SweetAutoLayout-umbrella.h"; sourceTree = "<group>"; };
+		023036B0725C46D8720C03DF2F4FB9CF /* Pods-SweetAutoLayout_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SweetAutoLayout_Example-dummy.m"; sourceTree = "<group>"; };
+		0323E848FEC747787C340293AA13EFA2 /* SweetAutoLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SweetAutoLayout.xcconfig; sourceTree = "<group>"; };
+		0C69CB5BA213978453D9BF1CB19FBC3F /* Pods_SweetAutoLayout_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SweetAutoLayout_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		136A8178F51A00F38F0717FD0C5F9545 /* SweetAutoLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SweetAutoLayout-prefix.pch"; sourceTree = "<group>"; };
+		16AE749ED338A977D13B7C70C2840343 /* SweetAutoLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SweetAutoLayout.swift; path = SweetAutoLayout/Classes/SweetAutoLayout.swift; sourceTree = "<group>"; };
+		1A6754F9D44FB53D02849946C96E47AD /* Pods-SweetAutoLayout_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SweetAutoLayout_Tests.modulemap"; sourceTree = "<group>"; };
+		1E718E2A177FA3713EDF8275F6D20B61 /* Pods-SweetAutoLayout_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SweetAutoLayout_Example.modulemap"; sourceTree = "<group>"; };
+		23705542E70594710B675176F8CAAFAE /* SweetAutoLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SweetAutoLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FFC3757794FAB97B7F7B671E5558F6D /* Pods-SweetAutoLayout_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SweetAutoLayout_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3325C40E556E6DCBF7FFDF80995F7307 /* Pods_SweetAutoLayout_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SweetAutoLayout_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		357063D4DE4198F3E4D6389E8C188522 /* Pods-SweetAutoLayout_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SweetAutoLayout_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3646CB82EF3088D1BD3F33A240194D76 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		3DF4208EF36CA531B75909FA1D4F3533 /* Pods-SweetAutoLayout_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SweetAutoLayout_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4A4CFD3B1F72342603FD48C7B202AFB2 /* Pods-SweetAutoLayout_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SweetAutoLayout_Tests-dummy.m"; sourceTree = "<group>"; };
+		56592EBC00DB1E390069B3C514F98D69 /* Pods-SweetAutoLayout_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SweetAutoLayout_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		61DD3436BD9076945C9B16AB521DF9D1 /* Pods-SweetAutoLayout_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SweetAutoLayout_Tests-Info.plist"; sourceTree = "<group>"; };
+		636A81C866882AEC5F28BB1E566F784A /* Pods-SweetAutoLayout_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SweetAutoLayout_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6FD40A42CCEBCF519CE2EE85DA3BB1B7 /* Pods-SweetAutoLayout_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SweetAutoLayout_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		894B7CDCF6F91F1C0DBBA8EF4CE7556B /* Pods-SweetAutoLayout_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SweetAutoLayout_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8E67721C5DEDE3E48E969CE51DE86AA3 /* Pods-SweetAutoLayout_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SweetAutoLayout_Example-Info.plist"; sourceTree = "<group>"; };
+		91372E011725B9A0F48714E3129BFE63 /* Pods-SweetAutoLayout_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SweetAutoLayout_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C0E2506ABF82E547C100A27E8A116D2D /* SweetAutoLayout.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SweetAutoLayout.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		C4F60C3A54B96BE7284BF38A7B4AEFF3 /* Pods-SweetAutoLayout_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SweetAutoLayout_Example-umbrella.h"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CCFA8D3B7CDA4559A3BC697CA1B26F3B /* Pods-SweetAutoLayout_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SweetAutoLayout_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CD26CE0E83550DF6A8537B94B6BF2067 /* SweetAutoLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SweetAutoLayout-Info.plist"; sourceTree = "<group>"; };
+		D010F889C74F66F61BB97A0EA9181EF2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D61FD86EC611A4FB45AC0CC6348392C3 /* Pods-SweetAutoLayout_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SweetAutoLayout_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DDEFE103DE6ED59A066A3A9A0F1FCCB4 /* SweetAutoLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SweetAutoLayout-dummy.m"; sourceTree = "<group>"; };
+		FF17AA546C7B56A588BB45ED5DA875A5 /* SweetAutoLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SweetAutoLayout.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0058E386373327F9BB26243B174AA295 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E23448EFD9E9758D2F4AF1A1FFB335F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94249271C312C350D331DFFDEB4B74B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D98978B2D2165B614E77CEC09E197DBA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1C817258EAB229FF8EBC1D51BACEE39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041E4894D628E9212B04D5FDBF602FAF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13A2391558BAE58E64BCEBBE2F2F78AD /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E55C120830C74DF35DAC723DC2896C9 /* SweetAutoLayout */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6E55C120830C74DF35DAC723DC2896C9 /* SweetAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				16AE749ED338A977D13B7C70C2840343 /* SweetAutoLayout.swift */,
+				A022E257F0C6E6E38958C01CD38B2BA0 /* Pod */,
+				976E9770BD9E77E10EA487BD480592CB /* Support Files */,
+			);
+			name = SweetAutoLayout;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7538E01DFBFCD95B2DF46CF5866AC918 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A34621E584778BC27A76A1D9A69E5422 /* Pods-SweetAutoLayout_Example */,
+				A51F098742D71490368B7D515978E398 /* Pods-SweetAutoLayout_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		773176A39F1242AEFFDA78A5E0FA0CF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3325C40E556E6DCBF7FFDF80995F7307 /* Pods_SweetAutoLayout_Example.framework */,
+				0C69CB5BA213978453D9BF1CB19FBC3F /* Pods_SweetAutoLayout_Tests.framework */,
+				23705542E70594710B675176F8CAAFAE /* SweetAutoLayout.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		976E9770BD9E77E10EA487BD480592CB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF17AA546C7B56A588BB45ED5DA875A5 /* SweetAutoLayout.modulemap */,
+				0323E848FEC747787C340293AA13EFA2 /* SweetAutoLayout.xcconfig */,
+				DDEFE103DE6ED59A066A3A9A0F1FCCB4 /* SweetAutoLayout-dummy.m */,
+				CD26CE0E83550DF6A8537B94B6BF2067 /* SweetAutoLayout-Info.plist */,
+				136A8178F51A00F38F0717FD0C5F9545 /* SweetAutoLayout-prefix.pch */,
+				0218FE02BA4407605923DD73E7C502BF /* SweetAutoLayout-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SweetAutoLayout";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A022E257F0C6E6E38958C01CD38B2BA0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3646CB82EF3088D1BD3F33A240194D76 /* LICENSE */,
+				D010F889C74F66F61BB97A0EA9181EF2 /* README.md */,
+				C0E2506ABF82E547C100A27E8A116D2D /* SweetAutoLayout.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A34621E584778BC27A76A1D9A69E5422 /* Pods-SweetAutoLayout_Example */ = {
+			isa = PBXGroup;
+			children = (
+				1E718E2A177FA3713EDF8275F6D20B61 /* Pods-SweetAutoLayout_Example.modulemap */,
+				D61FD86EC611A4FB45AC0CC6348392C3 /* Pods-SweetAutoLayout_Example-acknowledgements.markdown */,
+				357063D4DE4198F3E4D6389E8C188522 /* Pods-SweetAutoLayout_Example-acknowledgements.plist */,
+				023036B0725C46D8720C03DF2F4FB9CF /* Pods-SweetAutoLayout_Example-dummy.m */,
+				894B7CDCF6F91F1C0DBBA8EF4CE7556B /* Pods-SweetAutoLayout_Example-frameworks.sh */,
+				8E67721C5DEDE3E48E969CE51DE86AA3 /* Pods-SweetAutoLayout_Example-Info.plist */,
+				C4F60C3A54B96BE7284BF38A7B4AEFF3 /* Pods-SweetAutoLayout_Example-umbrella.h */,
+				3DF4208EF36CA531B75909FA1D4F3533 /* Pods-SweetAutoLayout_Example.debug.xcconfig */,
+				2FFC3757794FAB97B7F7B671E5558F6D /* Pods-SweetAutoLayout_Example.release.xcconfig */,
+			);
+			name = "Pods-SweetAutoLayout_Example";
+			path = "Target Support Files/Pods-SweetAutoLayout_Example";
+			sourceTree = "<group>";
+		};
+		A51F098742D71490368B7D515978E398 /* Pods-SweetAutoLayout_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1A6754F9D44FB53D02849946C96E47AD /* Pods-SweetAutoLayout_Tests.modulemap */,
+				CCFA8D3B7CDA4559A3BC697CA1B26F3B /* Pods-SweetAutoLayout_Tests-acknowledgements.markdown */,
+				636A81C866882AEC5F28BB1E566F784A /* Pods-SweetAutoLayout_Tests-acknowledgements.plist */,
+				4A4CFD3B1F72342603FD48C7B202AFB2 /* Pods-SweetAutoLayout_Tests-dummy.m */,
+				61DD3436BD9076945C9B16AB521DF9D1 /* Pods-SweetAutoLayout_Tests-Info.plist */,
+				91372E011725B9A0F48714E3129BFE63 /* Pods-SweetAutoLayout_Tests-umbrella.h */,
+				6FD40A42CCEBCF519CE2EE85DA3BB1B7 /* Pods-SweetAutoLayout_Tests.debug.xcconfig */,
+				56592EBC00DB1E390069B3C514F98D69 /* Pods-SweetAutoLayout_Tests.release.xcconfig */,
+			);
+			name = "Pods-SweetAutoLayout_Tests";
+			path = "Target Support Files/Pods-SweetAutoLayout_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				13A2391558BAE58E64BCEBBE2F2F78AD /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				773176A39F1242AEFFDA78A5E0FA0CF2 /* Products */,
+				7538E01DFBFCD95B2DF46CF5866AC918 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0F03A1215330A447C1AE5D56A2C0EC15 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4A1018273B5250C55170143AFE0B1A2 /* SweetAutoLayout-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F84CB0979BBC875ABD9BC1D0C777254 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A74ED8B3C4A3A933D3096A06B8AA7C9 /* Pods-SweetAutoLayout_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B99B5FF90AD1EE43313689D81D72B80 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA8DB50B3A679338A1E5405D0B430EB /* Pods-SweetAutoLayout_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		64DFA514E25FD01238813AC794201C05 /* Pods-SweetAutoLayout_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C5AC40AE8FE321EAAB0C74488EAE826 /* Build configuration list for PBXNativeTarget "Pods-SweetAutoLayout_Example" */;
+			buildPhases = (
+				1F84CB0979BBC875ABD9BC1D0C777254 /* Headers */,
+				EDF7A6D57E8158286E592F54B1DAE74E /* Sources */,
+				94249271C312C350D331DFFDEB4B74B3 /* Frameworks */,
+				829F4ADB4439D6911C0D9BB3D0F773F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB0C4B8C42C94662E1DC15AC815D0FD6 /* PBXTargetDependency */,
+			);
+			name = "Pods-SweetAutoLayout_Example";
+			productName = "Pods-SweetAutoLayout_Example";
+			productReference = 3325C40E556E6DCBF7FFDF80995F7307 /* Pods_SweetAutoLayout_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9666E5E94DF880739E7E40AEBA60DADB /* SweetAutoLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE15618329173DD3B6E8DB411D746C7E /* Build configuration list for PBXNativeTarget "SweetAutoLayout" */;
+			buildPhases = (
+				0F03A1215330A447C1AE5D56A2C0EC15 /* Headers */,
+				1443EE010FC3DAC5E43FA959AE97A278 /* Sources */,
+				F1C817258EAB229FF8EBC1D51BACEE39 /* Frameworks */,
+				7C0079C5407BD923D2C64AB5B9CC2048 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SweetAutoLayout;
+			productName = SweetAutoLayout;
+			productReference = 23705542E70594710B675176F8CAAFAE /* SweetAutoLayout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D225A3A43EFF2F72C7388298323DE215 /* Pods-SweetAutoLayout_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C86EAE725921F76281C2D8339CBCC1C /* Build configuration list for PBXNativeTarget "Pods-SweetAutoLayout_Tests" */;
+			buildPhases = (
+				6B99B5FF90AD1EE43313689D81D72B80 /* Headers */,
+				1728DC401B8A958D62E6DA865999D13B /* Sources */,
+				0058E386373327F9BB26243B174AA295 /* Frameworks */,
+				468C610A6BDB0CD77FCEABDC6E5D5741 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E836AFF13FDBD4CFB0441110A7788C4 /* PBXTargetDependency */,
+			);
+			name = "Pods-SweetAutoLayout_Tests";
+			productName = "Pods-SweetAutoLayout_Tests";
+			productReference = 0C69CB5BA213978453D9BF1CB19FBC3F /* Pods_SweetAutoLayout_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 773176A39F1242AEFFDA78A5E0FA0CF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64DFA514E25FD01238813AC794201C05 /* Pods-SweetAutoLayout_Example */,
+				D225A3A43EFF2F72C7388298323DE215 /* Pods-SweetAutoLayout_Tests */,
+				9666E5E94DF880739E7E40AEBA60DADB /* SweetAutoLayout */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		468C610A6BDB0CD77FCEABDC6E5D5741 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C0079C5407BD923D2C64AB5B9CC2048 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		829F4ADB4439D6911C0D9BB3D0F773F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1443EE010FC3DAC5E43FA959AE97A278 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1478DC888F77C25BD89FBD3CB234D2D1 /* SweetAutoLayout-dummy.m in Sources */,
+				571C396C53E637C987CC057871EA858F /* SweetAutoLayout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1728DC401B8A958D62E6DA865999D13B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F5B4C0A3F6A2939474FF30FD4AEA9D8 /* Pods-SweetAutoLayout_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF7A6D57E8158286E592F54B1DAE74E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EB263B8ACA16B2EC81A8BD4A8B043F5 /* Pods-SweetAutoLayout_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E836AFF13FDBD4CFB0441110A7788C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SweetAutoLayout_Example";
+			target = 64DFA514E25FD01238813AC794201C05 /* Pods-SweetAutoLayout_Example */;
+			targetProxy = B4B5DBFC3C47D787AE5AC9C7C817521B /* PBXContainerItemProxy */;
+		};
+		CB0C4B8C42C94662E1DC15AC815D0FD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SweetAutoLayout;
+			target = 9666E5E94DF880739E7E40AEBA60DADB /* SweetAutoLayout */;
+			targetProxy = D75801F04EFA2D8976CC8C06407F8DB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		54AABE07DD8DA84E7E0CFF134FA5BF5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0323E848FEC747787C340293AA13EFA2 /* SweetAutoLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SweetAutoLayout/SweetAutoLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SweetAutoLayout/SweetAutoLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SweetAutoLayout/SweetAutoLayout.modulemap";
+				PRODUCT_MODULE_NAME = SweetAutoLayout;
+				PRODUCT_NAME = SweetAutoLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8265F2297A630A980B22B83889B0145B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0323E848FEC747787C340293AA13EFA2 /* SweetAutoLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SweetAutoLayout/SweetAutoLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SweetAutoLayout/SweetAutoLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SweetAutoLayout/SweetAutoLayout.modulemap";
+				PRODUCT_MODULE_NAME = SweetAutoLayout;
+				PRODUCT_NAME = SweetAutoLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8FBD2296AB08327328D81498063A542C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DF4208EF36CA531B75909FA1D4F3533 /* Pods-SweetAutoLayout_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SweetAutoLayout_Example/Pods-SweetAutoLayout_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SweetAutoLayout_Example/Pods-SweetAutoLayout_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		96078B0850928B6DAFB71C08A6871BBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FD40A42CCEBCF519CE2EE85DA3BB1B7 /* Pods-SweetAutoLayout_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SweetAutoLayout_Tests/Pods-SweetAutoLayout_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SweetAutoLayout_Tests/Pods-SweetAutoLayout_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DBA82D8FE8E89AA05131103CF5647D7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56592EBC00DB1E390069B3C514F98D69 /* Pods-SweetAutoLayout_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SweetAutoLayout_Tests/Pods-SweetAutoLayout_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SweetAutoLayout_Tests/Pods-SweetAutoLayout_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E8F03886DD166CB4861EB4933025B33B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FFC3757794FAB97B7F7B671E5558F6D /* Pods-SweetAutoLayout_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SweetAutoLayout_Example/Pods-SweetAutoLayout_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SweetAutoLayout_Example/Pods-SweetAutoLayout_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F232B5ECA11A71BFA199A229B323F454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C86EAE725921F76281C2D8339CBCC1C /* Build configuration list for PBXNativeTarget "Pods-SweetAutoLayout_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96078B0850928B6DAFB71C08A6871BBB /* Debug */,
+				DBA82D8FE8E89AA05131103CF5647D7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C5AC40AE8FE321EAAB0C74488EAE826 /* Build configuration list for PBXNativeTarget "Pods-SweetAutoLayout_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FBD2296AB08327328D81498063A542C /* Debug */,
+				E8F03886DD166CB4861EB4933025B33B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */,
+				F232B5ECA11A71BFA199A229B323F454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE15618329173DD3B6E8DB411D746C7E /* Build configuration list for PBXNativeTarget "SweetAutoLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54AABE07DD8DA84E7E0CFF134FA5BF5F /* Debug */,
+				8265F2297A630A980B22B83889B0145B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

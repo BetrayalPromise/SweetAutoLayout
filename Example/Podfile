@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SweetAutoLayout_Example' do
+  pod 'SweetAutoLayout', :path => '../'
+
+  target 'SweetAutoLayout_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

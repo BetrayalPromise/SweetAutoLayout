@@ -27,3 +27,5 @@ chunyang li, chunyang.li.o@nio.com
 ## License
 
 SweetAutoLayout is available under the MIT license. See the LICENSE file for more info.
+
+这个布局由于[link](https://github.com/indragiek/SwiftAutoLayout.git)到现在为止还未更新,所以本人稍作修改,加上支持一些新的特性,安全区支持和链式调用

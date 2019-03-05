@@ -40,16 +40,16 @@
 		0218FE02BA4407605923DD73E7C502BF /* SweetAutoLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SweetAutoLayout-umbrella.h"; sourceTree = "<group>"; };
 		023036B0725C46D8720C03DF2F4FB9CF /* Pods-SweetAutoLayout_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SweetAutoLayout_Example-dummy.m"; sourceTree = "<group>"; };
 		0323E848FEC747787C340293AA13EFA2 /* SweetAutoLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SweetAutoLayout.xcconfig; sourceTree = "<group>"; };
-		0C69CB5BA213978453D9BF1CB19FBC3F /* Pods_SweetAutoLayout_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SweetAutoLayout_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C69CB5BA213978453D9BF1CB19FBC3F /* Pods_SweetAutoLayout_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SweetAutoLayout_Tests.framework; path = "Pods-SweetAutoLayout_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		136A8178F51A00F38F0717FD0C5F9545 /* SweetAutoLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SweetAutoLayout-prefix.pch"; sourceTree = "<group>"; };
 		16AE749ED338A977D13B7C70C2840343 /* SweetAutoLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SweetAutoLayout.swift; path = SweetAutoLayout/Classes/SweetAutoLayout.swift; sourceTree = "<group>"; };
 		1A6754F9D44FB53D02849946C96E47AD /* Pods-SweetAutoLayout_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SweetAutoLayout_Tests.modulemap"; sourceTree = "<group>"; };
 		1E718E2A177FA3713EDF8275F6D20B61 /* Pods-SweetAutoLayout_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SweetAutoLayout_Example.modulemap"; sourceTree = "<group>"; };
-		23705542E70594710B675176F8CAAFAE /* SweetAutoLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SweetAutoLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23705542E70594710B675176F8CAAFAE /* SweetAutoLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SweetAutoLayout.framework; path = SweetAutoLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FFC3757794FAB97B7F7B671E5558F6D /* Pods-SweetAutoLayout_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SweetAutoLayout_Example.release.xcconfig"; sourceTree = "<group>"; };
-		3325C40E556E6DCBF7FFDF80995F7307 /* Pods_SweetAutoLayout_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SweetAutoLayout_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3325C40E556E6DCBF7FFDF80995F7307 /* Pods_SweetAutoLayout_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SweetAutoLayout_Example.framework; path = "Pods-SweetAutoLayout_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		357063D4DE4198F3E4D6389E8C188522 /* Pods-SweetAutoLayout_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SweetAutoLayout_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		3646CB82EF3088D1BD3F33A240194D76 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		3646CB82EF3088D1BD3F33A240194D76 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		3DF4208EF36CA531B75909FA1D4F3533 /* Pods-SweetAutoLayout_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SweetAutoLayout_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4A4CFD3B1F72342603FD48C7B202AFB2 /* Pods-SweetAutoLayout_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SweetAutoLayout_Tests-dummy.m"; sourceTree = "<group>"; };
 		56592EBC00DB1E390069B3C514F98D69 /* Pods-SweetAutoLayout_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SweetAutoLayout_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -59,13 +59,13 @@
 		894B7CDCF6F91F1C0DBBA8EF4CE7556B /* Pods-SweetAutoLayout_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SweetAutoLayout_Example-frameworks.sh"; sourceTree = "<group>"; };
 		8E67721C5DEDE3E48E969CE51DE86AA3 /* Pods-SweetAutoLayout_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SweetAutoLayout_Example-Info.plist"; sourceTree = "<group>"; };
 		91372E011725B9A0F48714E3129BFE63 /* Pods-SweetAutoLayout_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SweetAutoLayout_Tests-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C0E2506ABF82E547C100A27E8A116D2D /* SweetAutoLayout.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SweetAutoLayout.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C0E2506ABF82E547C100A27E8A116D2D /* SweetAutoLayout.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SweetAutoLayout.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C4F60C3A54B96BE7284BF38A7B4AEFF3 /* Pods-SweetAutoLayout_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SweetAutoLayout_Example-umbrella.h"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CCFA8D3B7CDA4559A3BC697CA1B26F3B /* Pods-SweetAutoLayout_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SweetAutoLayout_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CD26CE0E83550DF6A8537B94B6BF2067 /* SweetAutoLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SweetAutoLayout-Info.plist"; sourceTree = "<group>"; };
-		D010F889C74F66F61BB97A0EA9181EF2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D010F889C74F66F61BB97A0EA9181EF2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		D61FD86EC611A4FB45AC0CC6348392C3 /* Pods-SweetAutoLayout_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SweetAutoLayout_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DDEFE103DE6ED59A066A3A9A0F1FCCB4 /* SweetAutoLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SweetAutoLayout-dummy.m"; sourceTree = "<group>"; };
 		FF17AA546C7B56A588BB45ED5DA875A5 /* SweetAutoLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SweetAutoLayout.modulemap; sourceTree = "<group>"; };
@@ -403,7 +403,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		54AABE07DD8DA84E7E0CFF134FA5BF5F /* Debug */ = {
+		510435B471E13E7D0A7F5F04BBABD469 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0323E848FEC747787C340293AA13EFA2 /* SweetAutoLayout.xcconfig */;
 			buildSettings = {
@@ -427,38 +427,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8265F2297A630A980B22B83889B0145B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0323E848FEC747787C340293AA13EFA2 /* SweetAutoLayout.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SweetAutoLayout/SweetAutoLayout-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SweetAutoLayout/SweetAutoLayout-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SweetAutoLayout/SweetAutoLayout.modulemap";
-				PRODUCT_MODULE_NAME = SweetAutoLayout;
-				PRODUCT_NAME = SweetAutoLayout;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -630,6 +599,37 @@
 			};
 			name = Release;
 		};
+		DECE557299ECB783A835F5B8C871A25E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0323E848FEC747787C340293AA13EFA2 /* SweetAutoLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SweetAutoLayout/SweetAutoLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SweetAutoLayout/SweetAutoLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SweetAutoLayout/SweetAutoLayout.modulemap";
+				PRODUCT_MODULE_NAME = SweetAutoLayout;
+				PRODUCT_NAME = SweetAutoLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		E8F03886DD166CB4861EB4933025B33B /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2FFC3757794FAB97B7F7B671E5558F6D /* Pods-SweetAutoLayout_Example.release.xcconfig */;
@@ -717,7 +717,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -756,8 +757,8 @@
 		FE15618329173DD3B6E8DB411D746C7E /* Build configuration list for PBXNativeTarget "SweetAutoLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				54AABE07DD8DA84E7E0CFF134FA5BF5F /* Debug */,
-				8265F2297A630A980B22B83889B0145B /* Release */,
+				DECE557299ECB783A835F5B8C871A25E /* Debug */,
+				510435B471E13E7D0A7F5F04BBABD469 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

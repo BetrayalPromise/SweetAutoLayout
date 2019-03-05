@@ -18,16 +18,18 @@ class ViewController: UIViewController {
         v.backgroundColor = .red
         v.translatesAutoresizingMaskIntoConstraints = false
         if #available(iOS 11.0, *) {
-            (self.view.layoutGuide.left == v.left).isActive = true
-            (v.right == self.view.layoutGuide.right).isActive = true
-            (self.view.layoutGuide.top == v.top).isActive = true
-            (v.bottom == self.view.layoutGuide.bottom).isActive = true
+            (self.view.safeAreaLayoutGuide.left == v.left).isActive = true
+            (v.right == self.view.safeAreaLayoutGuide.right).isActive = true
+            (self.view.safeAreaLayoutGuide.top == v.top).isActive = true
+            (v.bottom == self.view.safeAreaLayoutGuide.bottom).isActive = true
         } else {
             (self.topLayoutGuide.bottom == v.top).isActive = true
             (v.bottom == self.bottomLayoutGuide.top).isActive = true
             (self.view.left == v.left).isActive = true
             (v.right == self.view.right).isActive = true
         }
+        
+        (self.topLayoutGuide.top >= self.view.top * 3 + 30 ~ 400).isActive = true
     }
 
 }

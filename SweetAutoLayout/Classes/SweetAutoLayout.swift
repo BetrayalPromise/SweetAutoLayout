@@ -120,12 +120,12 @@ public extension LayoutRegion {
     public var lastBaseline: LayoutItem<YAxis> { return layoutItem(self, .lastBaseline) }
 }
 
-public extension View {
-    @available(iOS 11.0, *)
-    public var layoutGuide: UILayoutGuide {
-        return self.safeAreaLayoutGuide
-    }
-}
+//public extension View {
+//    @available(iOS 11.0, *)
+//    public var layoutGuide: UILayoutGuide {
+//        return self.safeAreaLayoutGuide
+//    }
+//}
 
 #if os(iOS) || os(tvOS)
 extension UILayoutSupport {
@@ -164,9 +164,9 @@ precedencegroup PriorityPrecedence {
 
 infix operator ~ : PriorityPrecedence
 
-public func ~(lhs: NSLayoutConstraint, rhs: LayoutPriority) -> NSLayoutConstraint? {
-    guard let firstItem = lhs.firstItem else { return nil }
+public func ~ (lhs: NSLayoutConstraint, rhs: Float) -> NSLayoutConstraint {
+    guard let firstItem = lhs.firstItem else { return NSLayoutConstraint() }
     let newConstraint = NSLayoutConstraint(item: firstItem, attribute: lhs.firstAttribute, relatedBy: lhs.relation, toItem: lhs.secondItem, attribute: lhs.secondAttribute, multiplier: lhs.multiplier, constant: lhs.constant)
-    newConstraint.priority = rhs
+    newConstraint.priority = UILayoutPriority(rawValue: rhs)
     return newConstraint
 }

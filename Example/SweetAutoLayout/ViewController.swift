@@ -30,6 +30,8 @@ class ViewController: UIViewController {
         }
         
         (self.topLayoutGuide.top >= self.view.top * 3 + 30 ~ 400).isActive = true
+
+        v.width == 30
     }
 
 }

@@ -2,19 +2,19 @@
 //  Licensed under the MIT license, see LICENSE file for more info.
 
 #if os(OSX)
-    import AppKit
-    public typealias View = NSView
-    public typealias LayoutPriority = NSLayoutPriority
-    
-    @available(OSX 10.11, *)
-    public typealias LayoutGuide = NSLayoutGuide
+import AppKit
+public typealias View = NSView
+public typealias LayoutPriority = NSLayoutPriority
+
+@available(OSX 10.11, *)
+public typealias LayoutGuide = NSLayoutGuide
 #elseif os(iOS) || os(tvOS)
-    import UIKit
-    public typealias View = UIView
-    public typealias LayoutPriority = UILayoutPriority
-    
-    @available(iOS 9.0, *)
-    public typealias LayoutGuide = UILayoutGuide
+import UIKit
+public typealias View = UIView
+public typealias LayoutPriority = UILayoutPriority
+
+@available(iOS 9.0, *)
+public typealias LayoutGuide = UILayoutGuide
 #endif
 
 public protocol LayoutRegion: AnyObject {}
@@ -120,13 +120,6 @@ public extension LayoutRegion {
     public var lastBaseline: LayoutItem<YAxis> { return layoutItem(self, .lastBaseline) }
 }
 
-//public extension View {
-//    @available(iOS 11.0, *)
-//    public var layoutGuide: UILayoutGuide {
-//        return self.safeAreaLayoutGuide
-//    }
-//}
-
 #if os(iOS) || os(tvOS)
 extension UILayoutSupport {
     @available(iOS, introduced: 7.0, deprecated: 11.0, message: "Use view.safeAreaLayoutGuide")
@@ -158,15 +151,18 @@ public extension UIViewController {
 #endif
 
 precedencegroup PriorityPrecedence {
-  lowerThan: ComparisonPrecedence
-  higherThan: AssignmentPrecedence
+    lowerThan: ComparisonPrecedence
+    higherThan: AssignmentPrecedence
 }
 
 infix operator ~ : PriorityPrecedence
 
 public func ~ (lhs: NSLayoutConstraint, rhs: Float) -> NSLayoutConstraint {
-    guard let firstItem = lhs.firstItem else { return NSLayoutConstraint() }
+    guard let firstItem = lhs.firstItem else {
+        assert(false, "first item can't be nil")
+        return NSLayoutConstraint()
+    }
     let newConstraint = NSLayoutConstraint(item: firstItem, attribute: lhs.firstAttribute, relatedBy: lhs.relation, toItem: lhs.secondItem, attribute: lhs.secondAttribute, multiplier: lhs.multiplier, constant: lhs.constant)
-    newConstraint.priority = UILayoutPriority(rawValue: rhs)
+    newConstraint.priority = LayoutPriority(rawValue: rhs)
     return newConstraint
 }

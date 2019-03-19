@@ -8,6 +8,7 @@
 
 import UIKit
 import SweetAutoLayout
+import Photos
 
 class ViewController: UIViewController {
 
@@ -31,7 +32,10 @@ class ViewController: UIViewController {
         
         (self.topLayoutGuide.top >= self.view.top * 3 + 30 ~ 400).isActive = true
 
-        v.width == 30
+        (v.width == 30).isActive = true
+
+
+
     }
 
 }

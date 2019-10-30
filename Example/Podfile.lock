@@ -1,5 +1,5 @@
 PODS:
-  - SweetAutoLayout (0.1.0)
+  - SweetAutoLayout (0.1.1)
 
 DEPENDENCIES:
   - SweetAutoLayout (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SweetAutoLayout: 964750e9717680450bd6054dc249485a2b361e01
+  SweetAutoLayout: 37e054c94d00b4128c582d3de2e8fec225b9c101
 
 PODFILE CHECKSUM: 57f392e7be19f1a5744733178424a93ab9f6da38
 

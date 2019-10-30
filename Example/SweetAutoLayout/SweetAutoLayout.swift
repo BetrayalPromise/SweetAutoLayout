@@ -96,55 +96,55 @@ private func layoutItem<C>(_ item: AnyObject, _ attribute: NSLayoutConstraint.At
 
 @available(iOS 8.0, *)
 public extension LayoutRegion {
-    public var left: LayoutItem<XAxis> { return layoutItem(self, .left) }
-    public var right: LayoutItem<XAxis> { return layoutItem(self, .right) }
-    public var top: LayoutItem<YAxis> { return layoutItem(self, .top) }
-    public var bottom: LayoutItem<YAxis> { return layoutItem(self, .bottom) }
-    public var leading: LayoutItem<XAxis> { return layoutItem(self, .leading) }
-    public var trailing: LayoutItem<XAxis> { return layoutItem(self, .trailing) }
-    public var width: LayoutItem<Dimension> { return layoutItem(self, .width) }
-    public var height: LayoutItem<Dimension> { return layoutItem(self, .height) }
-    public var centerX: LayoutItem<XAxis> { return layoutItem(self, .centerX) }
-    public var centerY: LayoutItem<YAxis> { return layoutItem(self, .centerY) }
-    public var leftMargin: LayoutItem<XAxis> { return layoutItem(self, .leftMargin) }
-    public var rightMargin: LayoutItem<XAxis> { return layoutItem(self, .rightMargin) }
-    public var topMargin: LayoutItem<YAxis> { return layoutItem(self, .topMargin) }
-    public var bottomMargin: LayoutItem<YAxis> { return layoutItem(self, .bottomMargin) }
-    public var leadingMargin: LayoutItem<XAxis> { return layoutItem(self, .leadingMargin) }
-    public var trailingMargin: LayoutItem<XAxis> { return layoutItem(self, .trailingMargin) }
-    public var centerXWithinMargins: LayoutItem<XAxis> { return layoutItem(self, .centerXWithinMargins) }
-    public var centerYWithinMargins: LayoutItem<YAxis> { return layoutItem(self, .centerYWithinMargins) }
-    public var baseline: LayoutItem<YAxis> { return layoutItem(self, .lastBaseline) }
+    var left: LayoutItem<XAxis> { return layoutItem(self, .left) }
+    var right: LayoutItem<XAxis> { return layoutItem(self, .right) }
+    var top: LayoutItem<YAxis> { return layoutItem(self, .top) }
+    var bottom: LayoutItem<YAxis> { return layoutItem(self, .bottom) }
+    var leading: LayoutItem<XAxis> { return layoutItem(self, .leading) }
+    var trailing: LayoutItem<XAxis> { return layoutItem(self, .trailing) }
+    var width: LayoutItem<Dimension> { return layoutItem(self, .width) }
+    var height: LayoutItem<Dimension> { return layoutItem(self, .height) }
+    var centerX: LayoutItem<XAxis> { return layoutItem(self, .centerX) }
+    var centerY: LayoutItem<YAxis> { return layoutItem(self, .centerY) }
+    var leftMargin: LayoutItem<XAxis> { return layoutItem(self, .leftMargin) }
+    var rightMargin: LayoutItem<XAxis> { return layoutItem(self, .rightMargin) }
+    var topMargin: LayoutItem<YAxis> { return layoutItem(self, .topMargin) }
+    var bottomMargin: LayoutItem<YAxis> { return layoutItem(self, .bottomMargin) }
+    var leadingMargin: LayoutItem<XAxis> { return layoutItem(self, .leadingMargin) }
+    var trailingMargin: LayoutItem<XAxis> { return layoutItem(self, .trailingMargin) }
+    var centerXWithinMargins: LayoutItem<XAxis> { return layoutItem(self, .centerXWithinMargins) }
+    var centerYWithinMargins: LayoutItem<YAxis> { return layoutItem(self, .centerYWithinMargins) }
+    var baseline: LayoutItem<YAxis> { return layoutItem(self, .lastBaseline) }
     @available(iOS 8.0, OSX 10.11, *)
-    public var firstBaseline: LayoutItem<YAxis> { return layoutItem(self, .firstBaseline) }
-    public var lastBaseline: LayoutItem<YAxis> { return layoutItem(self, .lastBaseline) }
+    var firstBaseline: LayoutItem<YAxis> { return layoutItem(self, .firstBaseline) }
+    var lastBaseline: LayoutItem<YAxis> { return layoutItem(self, .lastBaseline) }
 }
 
 #if os(iOS) || os(tvOS)
-extension UILayoutSupport {
+public extension UILayoutSupport {
     @available(iOS, introduced: 7.0, deprecated: 11.0, message: "Use view.safeAreaLayoutGuide")
-    public var top: LayoutItem<YAxis> { return layoutItem(self, .top) }
+    var top: LayoutItem<YAxis> { return layoutItem(self, .top) }
     @available(iOS, introduced: 7.0, deprecated: 11.0, message: "Use view.safeAreaLayoutGuide")
-    public var bottom: LayoutItem<YAxis> { return layoutItem(self, .bottom) }
+    var bottom: LayoutItem<YAxis> { return layoutItem(self, .bottom) }
 }
 
 public extension UIViewController {
     @available(iOS, introduced: 7.0, deprecated: 11.0, message: "Use view.safeAreaLayoutGuide")
-    public var topLayoutGuideTop: LayoutItem<YAxis> {
+    var topLayoutGuideTop: LayoutItem<YAxis> {
         return layoutItem(topLayoutGuide, .top)
     }
     
     @available(iOS, introduced: 7.0, deprecated: 11.0, message: "Use view.safeAreaLayoutGuide")
-    public var topLayoutGuideBottom: LayoutItem<YAxis> {
+    var topLayoutGuideBottom: LayoutItem<YAxis> {
         return layoutItem(topLayoutGuide, .bottom)
     }
     
     @available(iOS, introduced: 7.0, deprecated: 11.0, message: "Use view.safeAreaLayoutGuide")
-    public var bottomLayoutGuideTop: LayoutItem<YAxis> {
+    var bottomLayoutGuideTop: LayoutItem<YAxis> {
         return layoutItem(bottomLayoutGuide, .top)
     }
     @available(iOS, introduced: 7.0, deprecated: 11.0, message: "Use view.safeAreaLayoutGuide")
-    public var bottomLayoutGuideBottom: LayoutItem<YAxis> {
+    var bottomLayoutGuideBottom: LayoutItem<YAxis> {
         return layoutItem(bottomLayoutGuide, .bottom)
     }
 }

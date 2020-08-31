@@ -12,15 +12,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-Podfile
-```ruby
-pod 'SweetAutoLayout', :git => 'https://github.com/BetrayalPromise/SweetAutoLayout.git'
-```
-Cartfile
-```ruby
-git "https://github.com/BetrayalPromise/SweetAutoLayout.git"
-```
-
+Swift Package Manager Support Only
 
 ## Author
 菜鸡

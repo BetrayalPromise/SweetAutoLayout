@@ -1,0 +1,25 @@
+{
+  "allExecutables" : [
+
+  ],
+  "builtTestProducts" : [
+    {
+      "packageName" : "SweetAutoLayout",
+      "productName" : "SweetAutoLayoutPackageTests",
+      "testBinary" : "\/Users\/user0\/Desktop\/GITManage\/SweetAutoLayout\/.build\/x86_64-apple-macosx\/debug\/SweetAutoLayoutPackageTests.xctest\/Contents\/MacOS\/SweetAutoLayoutPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "rootExecutables" : [
+
+  ],
+  "swiftTargetMap" : {
+    "C.SweetAutoLayout-debug.module" : "SweetAutoLayout",
+    "C.SweetAutoLayoutTests-debug.module" : "SweetAutoLayoutTests"
+  },
+  "testDiscoveryCommands" : {
+
+  }
+}

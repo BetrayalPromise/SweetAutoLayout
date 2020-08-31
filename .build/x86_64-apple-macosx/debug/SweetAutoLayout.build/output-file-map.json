@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/user0/Desktop/GITManage/SweetAutoLayout/.build/x86_64-apple-macosx/debug/SweetAutoLayout.build/master.swiftdeps"
+  },
+  "/Users/user0/Desktop/GITManage/SweetAutoLayout/Sources/SweetAutoLayout/SweetAutoLayout.swift": {
+    "dependencies": "/Users/user0/Desktop/GITManage/SweetAutoLayout/.build/x86_64-apple-macosx/debug/SweetAutoLayout.build/SweetAutoLayout.d",
+    "object": "/Users/user0/Desktop/GITManage/SweetAutoLayout/.build/x86_64-apple-macosx/debug/SweetAutoLayout.build/SweetAutoLayout.swift.o",
+    "swiftmodule": "/Users/user0/Desktop/GITManage/SweetAutoLayout/.build/x86_64-apple-macosx/debug/SweetAutoLayout.build/SweetAutoLayout~partial.swiftmodule",
+    "swift-dependencies": "/Users/user0/Desktop/GITManage/SweetAutoLayout/.build/x86_64-apple-macosx/debug/SweetAutoLayout.build/SweetAutoLayout.swiftdeps"
+  }
+}

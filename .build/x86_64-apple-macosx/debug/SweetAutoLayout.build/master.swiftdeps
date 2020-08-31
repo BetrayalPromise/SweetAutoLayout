@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "4f3e16762c60f83a712be1284a2c0f81"
+build_time: [1598849447, 601000]
+inputs:
+  "/Users/user0/Desktop/GITManage/SweetAutoLayout/Sources/SweetAutoLayout/SweetAutoLayout.swift": [1598849440, 532894830]

@@ -1,0 +1,78 @@
+client:
+  name: basic
+tools: {}
+targets:
+  "PackageStructure": ["<PackageStructure>"]
+  "SweetAutoLayout-debug.module": ["<SweetAutoLayout-debug.module>"]
+  "SweetAutoLayoutPackageTests-debug.test": ["<SweetAutoLayoutPackageTests-debug.test>"]
+  "SweetAutoLayoutTests-debug.module": ["<SweetAutoLayoutTests-debug.module>"]
+  "main": ["<SweetAutoLayout-debug.module>"]
+  "test": ["<SweetAutoLayout-debug.module>","<SweetAutoLayoutPackageTests-debug.test>","<SweetAutoLayoutTests-debug.module>"]
+default: "main"
+nodes:
+  "/Users/user0/Desktop/GITManage/SweetAutoLayout/Sources/SweetAutoLayout/":
+    is-directory-structure: true
+  "/Users/user0/Desktop/GITManage/SweetAutoLayout/Tests/SweetAutoLayoutTests/":
+    is-directory-structure: true
+commands:
+  "<SweetAutoLayout-debug.module>":
+    tool: phony
+    inputs: ["/Users/user0/Desktop/GITManage/SweetAutoLayout/.build/x86_64-apple-macosx/debug/SweetAutoLayout.build/SweetAutoLayout.swift.o","/Users/user0/Desktop/GITManage/SweetAutoLayout/.build/x86_64-apple-macosx/debug/SweetAutoLayout.swiftmodule"]
+    outputs: ["<SweetAutoLayout-debug.module>"]
+
+  "<SweetAutoLayoutPackageTests-debug.test>":
+    tool: phony
+    inputs: ["/Users/user0/Desktop/GITManage/SweetAutoLayout/.build/x86_64-apple-macosx/debug/SweetAutoLayoutPackageTests.xctest/Contents/MacOS/SweetAutoLayoutPackageTests"]
+    outputs: ["<SweetAutoLayoutPackageTests-debug.test>"]
+
+  "<SweetAutoLayoutTests-debug.module>":
+    tool: phony
+    inputs: ["/Users/user0/Desktop/GITManage/SweetAutoLayout/.build/x86_64-apple-macosx/debug/SweetAutoLayoutTests.build/SweetAutoLayoutTests.swift.o","/Users/user0/Desktop/GITManage/SweetAutoLayout/.build/x86_64-apple-macosx/debug/SweetAutoLayoutTests.build/XCTestManifests.swift.o","/Users/user0/Desktop/GITManage/SweetAutoLayout/.build/x86_64-apple-macosx/debug/SweetAutoLayoutTests.swiftmodule"]
+    outputs: ["<SweetAutoLayoutTests-debug.module>"]
+
+  "C.SweetAutoLayout-debug.module":
+    tool: swift-compiler
+    inputs: ["/Users/user0/Desktop/GITManage/SweetAutoLayout/Sources/SweetAutoLayout/SweetAutoLayout.swift"]
+    outputs: ["/Users/user0/Desktop/GITManage/SweetAutoLayout/.build/x86_64-apple-macosx/debug/SweetAutoLayout.build/SweetAutoLayout.swift.o","/Users/user0/Desktop/GITManage/SweetAutoLayout/.build/x86_64-apple-macosx/debug/SweetAutoLayout.swiftmodule"]
+    executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "SweetAutoLayout"
+    module-output-path: "/Users/user0/Desktop/GITManage/SweetAutoLayout/.build/x86_64-apple-macosx/debug/SweetAutoLayout.swiftmodule"
+    import-paths: ["/Users/user0/Desktop/GITManage/SweetAutoLayout/.build/x86_64-apple-macosx/debug"]
+    temps-path: "/Users/user0/Desktop/GITManage/SweetAutoLayout/.build/x86_64-apple-macosx/debug/SweetAutoLayout.build"
+    objects: ["/Users/user0/Desktop/GITManage/SweetAutoLayout/.build/x86_64-apple-macosx/debug/SweetAutoLayout.build/SweetAutoLayout.swift.o"]
+    other-args: ["-target","x86_64-apple-macosx10.10","-swift-version","5","-enable-batch-mode","-index-store-path","/Users/user0/Desktop/GITManage/SweetAutoLayout/.build/x86_64-apple-macosx/debug/index/store","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-Onone","-enable-testing","-g","-j4","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/user0/Desktop/GITManage/SweetAutoLayout/.build/x86_64-apple-macosx/debug/ModuleCache","-parseable-output","-emit-objc-header","-emit-objc-header-path","/Users/user0/Desktop/GITManage/SweetAutoLayout/.build/x86_64-apple-macosx/debug/SweetAutoLayout.build/SweetAutoLayout-Swift.h","-color-diagnostics"]
+    sources: ["/Users/user0/Desktop/GITManage/SweetAutoLayout/Sources/SweetAutoLayout/SweetAutoLayout.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: 4
+
+  "C.SweetAutoLayoutPackageTests-debug.test":
+    tool: shell
+    inputs: ["/Users/user0/Desktop/GITManage/SweetAutoLayout/.build/x86_64-apple-macosx/debug/SweetAutoLayout.build/SweetAutoLayout.swift.o","/Users/user0/Desktop/GITManage/SweetAutoLayout/.build/x86_64-apple-macosx/debug/SweetAutoLayoutTests.build/SweetAutoLayoutTests.swift.o","/Users/user0/Desktop/GITManage/SweetAutoLayout/.build/x86_64-apple-macosx/debug/SweetAutoLayoutTests.build/XCTestManifests.swift.o"]
+    outputs: ["/Users/user0/Desktop/GITManage/SweetAutoLayout/.build/x86_64-apple-macosx/debug/SweetAutoLayoutPackageTests.xctest/Contents/MacOS/SweetAutoLayoutPackageTests"]
+    description: "Linking ./.build/x86_64-apple-macosx/debug/SweetAutoLayoutPackageTests.xctest/Contents/MacOS/SweetAutoLayoutPackageTests"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Users/user0/Desktop/GITManage/SweetAutoLayout/.build/x86_64-apple-macosx/debug","-o","/Users/user0/Desktop/GITManage/SweetAutoLayout/.build/x86_64-apple-macosx/debug/SweetAutoLayoutPackageTests.xctest/Contents/MacOS/SweetAutoLayoutPackageTests","-module-name","SweetAutoLayoutPackageTests","-Xlinker","-bundle","-Xlinker","-rpath","-Xlinker","@loader_path/../../../","@/Users/user0/Desktop/GITManage/SweetAutoLayout/.build/x86_64-apple-macosx/debug/SweetAutoLayoutPackageTests.product/Objects.LinkFileList","-Xlinker","-rpath","-Xlinker","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx","-target","x86_64-apple-macosx10.10","-Xlinker","-add_ast_path","-Xlinker","/Users/user0/Desktop/GITManage/SweetAutoLayout/.build/x86_64-apple-macosx/debug/SweetAutoLayout.swiftmodule","-Xlinker","-add_ast_path","-Xlinker","/Users/user0/Desktop/GITManage/SweetAutoLayout/.build/x86_64-apple-macosx/debug/SweetAutoLayoutTests.swiftmodule","-L","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib"]
+
+  "C.SweetAutoLayoutTests-debug.module":
+    tool: swift-compiler
+    inputs: ["/Users/user0/Desktop/GITManage/SweetAutoLayout/Tests/SweetAutoLayoutTests/SweetAutoLayoutTests.swift","/Users/user0/Desktop/GITManage/SweetAutoLayout/Tests/SweetAutoLayoutTests/XCTestManifests.swift","/Users/user0/Desktop/GITManage/SweetAutoLayout/.build/x86_64-apple-macosx/debug/SweetAutoLayout.swiftmodule"]
+    outputs: ["/Users/user0/Desktop/GITManage/SweetAutoLayout/.build/x86_64-apple-macosx/debug/SweetAutoLayoutTests.build/SweetAutoLayoutTests.swift.o","/Users/user0/Desktop/GITManage/SweetAutoLayout/.build/x86_64-apple-macosx/debug/SweetAutoLayoutTests.build/XCTestManifests.swift.o","/Users/user0/Desktop/GITManage/SweetAutoLayout/.build/x86_64-apple-macosx/debug/SweetAutoLayoutTests.swiftmodule"]
+    executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "SweetAutoLayoutTests"
+    module-output-path: "/Users/user0/Desktop/GITManage/SweetAutoLayout/.build/x86_64-apple-macosx/debug/SweetAutoLayoutTests.swiftmodule"
+    import-paths: ["/Users/user0/Desktop/GITManage/SweetAutoLayout/.build/x86_64-apple-macosx/debug"]
+    temps-path: "/Users/user0/Desktop/GITManage/SweetAutoLayout/.build/x86_64-apple-macosx/debug/SweetAutoLayoutTests.build"
+    objects: ["/Users/user0/Desktop/GITManage/SweetAutoLayout/.build/x86_64-apple-macosx/debug/SweetAutoLayoutTests.build/SweetAutoLayoutTests.swift.o","/Users/user0/Desktop/GITManage/SweetAutoLayout/.build/x86_64-apple-macosx/debug/SweetAutoLayoutTests.build/XCTestManifests.swift.o"]
+    other-args: ["-target","x86_64-apple-macosx10.10","-swift-version","5","-enable-batch-mode","-index-store-path","/Users/user0/Desktop/GITManage/SweetAutoLayout/.build/x86_64-apple-macosx/debug/index/store","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-Onone","-enable-testing","-g","-j4","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/user0/Desktop/GITManage/SweetAutoLayout/.build/x86_64-apple-macosx/debug/ModuleCache","-parseable-output","-color-diagnostics"]
+    sources: ["/Users/user0/Desktop/GITManage/SweetAutoLayout/Tests/SweetAutoLayoutTests/SweetAutoLayoutTests.swift","/Users/user0/Desktop/GITManage/SweetAutoLayout/Tests/SweetAutoLayoutTests/XCTestManifests.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: 4
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/Users/user0/Desktop/GITManage/SweetAutoLayout/Sources/SweetAutoLayout/","/Users/user0/Desktop/GITManage/SweetAutoLayout/Tests/SweetAutoLayoutTests/","/Users/user0/Desktop/GITManage/SweetAutoLayout/Package.swift","/Users/user0/Desktop/GITManage/SweetAutoLayout/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+

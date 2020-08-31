@@ -1,0 +1,4 @@
+module SweetAutoLayout {
+    header "/Users/user0/Desktop/GITManage/SweetAutoLayout/.build/x86_64-apple-macosx/debug/SweetAutoLayout.build/SweetAutoLayout-Swift.h"
+    requires objc
+}

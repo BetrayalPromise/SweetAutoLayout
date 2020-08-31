@@ -1,0 +1,385 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "View"
+- "LayoutPriority"
+- "LayoutGuide"
+- "LayoutRegion"
+- "XAxis"
+- "YAxis"
+- "Dimension"
+- "LayoutItem"
+- "*"
+- "/"
+- "+"
+- "-"
+- "=="
+- "=="
+- ">="
+- ">="
+- "<="
+- "<="
+- "PriorityPrecedence"
+- "~"
+- "~"
+provides-nominal:
+- "15SweetAutoLayout0C6RegionP"
+- "So6NSViewC"
+- "So13NSLayoutGuideC"
+- "15SweetAutoLayout5XAxisV"
+- "15SweetAutoLayout5YAxisV"
+- "15SweetAutoLayout9DimensionV"
+- "15SweetAutoLayout0C4ItemV"
+provides-member:
+- ["15SweetAutoLayout0C6RegionP", ""]
+- ["So6NSViewC", ""]
+- ["So13NSLayoutGuideC", ""]
+- ["15SweetAutoLayout5XAxisV", ""]
+- ["15SweetAutoLayout5YAxisV", ""]
+- ["15SweetAutoLayout9DimensionV", ""]
+- ["15SweetAutoLayout0C4ItemV", ""]
+- ["15SweetAutoLayout0C6RegionP", "left"]
+- ["15SweetAutoLayout0C6RegionP", "right"]
+- ["15SweetAutoLayout0C6RegionP", "top"]
+- ["15SweetAutoLayout0C6RegionP", "bottom"]
+- ["15SweetAutoLayout0C6RegionP", "leading"]
+- ["15SweetAutoLayout0C6RegionP", "trailing"]
+- ["15SweetAutoLayout0C6RegionP", "width"]
+- ["15SweetAutoLayout0C6RegionP", "height"]
+- ["15SweetAutoLayout0C6RegionP", "centerX"]
+- ["15SweetAutoLayout0C6RegionP", "centerY"]
+- ["15SweetAutoLayout0C6RegionP", "baseline"]
+- ["15SweetAutoLayout0C6RegionP", "firstBaseline"]
+- ["15SweetAutoLayout0C6RegionP", "lastBaseline"]
+provides-dynamic-lookup:
+depends-top-level:
+- "*"
+- "+"
+- "-"
+- "/"
+- "<="
+- "=="
+- ">="
+- "AnyObject"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "CGFloat"
+- "ComparisonPrecedence"
+- "Dimension"
+- "Float"
+- !private "FloatLiteralType"
+- "LayoutGuide"
+- "LayoutItem"
+- "LayoutPriority"
+- "LayoutRegion"
+- "NSLayoutConstraint"
+- "NSLayoutGuide"
+- "NSView"
+- !private "StringLiteralType"
+- "View"
+- "XAxis"
+- "YAxis"
+- !private "assert"
+- !private "layoutItem"
+- "~"
+depends-member:
+- !private ["So17NSLayoutAttributeV", "bottom"]
+- !private ["So17NSLayoutAttributeV", "centerX"]
+- !private ["So17NSLayoutAttributeV", "centerY"]
+- !private ["So17NSLayoutAttributeV", "firstBaseline"]
+- !private ["So17NSLayoutAttributeV", "height"]
+- !private ["So17NSLayoutAttributeV", "lastBaseline"]
+- !private ["So17NSLayoutAttributeV", "leading"]
+- !private ["So17NSLayoutAttributeV", "left"]
+- !private ["So17NSLayoutAttributeV", "notAnAttribute"]
+- !private ["So17NSLayoutAttributeV", "right"]
+- !private ["So17NSLayoutAttributeV", "top"]
+- !private ["So17NSLayoutAttributeV", "trailing"]
+- !private ["So17NSLayoutAttributeV", "width"]
+- ["s7CVarArgP", "Attribute"]
+- ["s7CVarArgP", "Priority"]
+- ["s7CVarArgP", "Relation"]
+- !private ["s7CVarArgP", "constant"]
+- !private ["s7CVarArgP", "firstAttribute"]
+- !private ["s7CVarArgP", "firstItem"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "multiplier"]
+- !private ["s7CVarArgP", "priority"]
+- !private ["s7CVarArgP", "relation"]
+- !private ["s7CVarArgP", "secondAttribute"]
+- !private ["s7CVarArgP", "secondItem"]
+- !private ["SL", "init"]
+- ["s28CustomDebugStringConvertibleP", "Attribute"]
+- ["s28CustomDebugStringConvertibleP", "Priority"]
+- ["s28CustomDebugStringConvertibleP", "Relation"]
+- !private ["s28CustomDebugStringConvertibleP", "constant"]
+- !private ["s28CustomDebugStringConvertibleP", "firstAttribute"]
+- !private ["s28CustomDebugStringConvertibleP", "firstItem"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "multiplier"]
+- !private ["s28CustomDebugStringConvertibleP", "priority"]
+- !private ["s28CustomDebugStringConvertibleP", "relation"]
+- !private ["s28CustomDebugStringConvertibleP", "secondAttribute"]
+- !private ["s28CustomDebugStringConvertibleP", "secondItem"]
+- ["s23CustomStringConvertibleP", "Attribute"]
+- ["s23CustomStringConvertibleP", "Priority"]
+- ["s23CustomStringConvertibleP", "Relation"]
+- !private ["s23CustomStringConvertibleP", "constant"]
+- !private ["s23CustomStringConvertibleP", "firstAttribute"]
+- !private ["s23CustomStringConvertibleP", "firstItem"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "multiplier"]
+- !private ["s23CustomStringConvertibleP", "priority"]
+- !private ["s23CustomStringConvertibleP", "relation"]
+- !private ["s23CustomStringConvertibleP", "secondAttribute"]
+- !private ["s23CustomStringConvertibleP", "secondItem"]
+- ["15SweetAutoLayout9DimensionV", "init"]
+- ["SQ", "Attribute"]
+- ["SQ", "Priority"]
+- ["SQ", "Relation"]
+- !private ["SQ", "bottom"]
+- !private ["SQ", "centerX"]
+- !private ["SQ", "centerY"]
+- !private ["SQ", "constant"]
+- !private ["SQ", "equal"]
+- !private ["SQ", "firstAttribute"]
+- !private ["SQ", "firstBaseline"]
+- !private ["SQ", "firstItem"]
+- !private ["SQ", "greaterThanOrEqual"]
+- !private ["SQ", "height"]
+- !private ["SQ", "init"]
+- !private ["SQ", "lastBaseline"]
+- !private ["SQ", "leading"]
+- !private ["SQ", "left"]
+- !private ["SQ", "lessThanOrEqual"]
+- !private ["SQ", "multiplier"]
+- !private ["SQ", "notAnAttribute"]
+- !private ["SQ", "priority"]
+- !private ["SQ", "relation"]
+- !private ["SQ", "right"]
+- !private ["SQ", "secondAttribute"]
+- !private ["SQ", "secondItem"]
+- !private ["SQ", "top"]
+- !private ["SQ", "trailing"]
+- !private ["SQ", "width"]
+- ["SH", "Attribute"]
+- ["SH", "Priority"]
+- ["SH", "Relation"]
+- !private ["SH", "bottom"]
+- !private ["SH", "centerX"]
+- !private ["SH", "centerY"]
+- !private ["SH", "constant"]
+- !private ["SH", "equal"]
+- !private ["SH", "firstAttribute"]
+- !private ["SH", "firstBaseline"]
+- !private ["SH", "firstItem"]
+- !private ["SH", "greaterThanOrEqual"]
+- !private ["SH", "height"]
+- !private ["SH", "init"]
+- !private ["SH", "lastBaseline"]
+- !private ["SH", "leading"]
+- !private ["SH", "left"]
+- !private ["SH", "lessThanOrEqual"]
+- !private ["SH", "multiplier"]
+- !private ["SH", "notAnAttribute"]
+- !private ["SH", "priority"]
+- !private ["SH", "relation"]
+- !private ["SH", "right"]
+- !private ["SH", "secondAttribute"]
+- !private ["SH", "secondItem"]
+- !private ["SH", "top"]
+- !private ["SH", "trailing"]
+- !private ["SH", "width"]
+- ["15SweetAutoLayout0C4ItemV", "AnyObject"]
+- ["15SweetAutoLayout0C4ItemV", "CGFloat"]
+- ["15SweetAutoLayout0C4ItemV", "LayoutItem"]
+- ["15SweetAutoLayout0C4ItemV", "NSLayoutConstraint"]
+- ["15SweetAutoLayout0C4ItemV", "attribute"]
+- ["15SweetAutoLayout0C4ItemV", "constant"]
+- !private ["15SweetAutoLayout0C4ItemV", "constrain"]
+- ["15SweetAutoLayout0C4ItemV", "init"]
+- ["15SweetAutoLayout0C4ItemV", "item"]
+- !private ["15SweetAutoLayout0C4ItemV", "itemWithConstant"]
+- !private ["15SweetAutoLayout0C4ItemV", "itemWithMultiplier"]
+- ["15SweetAutoLayout0C4ItemV", "multiplier"]
+- ["15SweetAutoLayout0C6RegionP", "Dimension"]
+- ["15SweetAutoLayout0C6RegionP", "LayoutItem"]
+- ["15SweetAutoLayout0C6RegionP", "XAxis"]
+- ["15SweetAutoLayout0C6RegionP", "YAxis"]
+- ["15SweetAutoLayout0C6RegionP", ""]
+- ["15SweetAutoLayout0C6RegionP", "baseline"]
+- ["15SweetAutoLayout0C6RegionP", "bottom"]
+- ["15SweetAutoLayout0C6RegionP", "centerX"]
+- ["15SweetAutoLayout0C6RegionP", "centerY"]
+- ["15SweetAutoLayout0C6RegionP", "firstBaseline"]
+- ["15SweetAutoLayout0C6RegionP", "height"]
+- ["15SweetAutoLayout0C6RegionP", "lastBaseline"]
+- !private ["15SweetAutoLayout0C6RegionP", "layoutItem"]
+- ["15SweetAutoLayout0C6RegionP", "leading"]
+- ["15SweetAutoLayout0C6RegionP", "left"]
+- ["15SweetAutoLayout0C6RegionP", "right"]
+- ["15SweetAutoLayout0C6RegionP", "top"]
+- ["15SweetAutoLayout0C6RegionP", "trailing"]
+- ["15SweetAutoLayout0C6RegionP", "width"]
+- ["So29NSAnimatablePropertyContainerP", "Attribute"]
+- ["So29NSAnimatablePropertyContainerP", "Priority"]
+- ["So29NSAnimatablePropertyContainerP", "Relation"]
+- !private ["So29NSAnimatablePropertyContainerP", "constant"]
+- !private ["So29NSAnimatablePropertyContainerP", "firstAttribute"]
+- !private ["So29NSAnimatablePropertyContainerP", "firstItem"]
+- !private ["So29NSAnimatablePropertyContainerP", "init"]
+- !private ["So29NSAnimatablePropertyContainerP", "multiplier"]
+- !private ["So29NSAnimatablePropertyContainerP", "priority"]
+- !private ["So29NSAnimatablePropertyContainerP", "relation"]
+- !private ["So29NSAnimatablePropertyContainerP", "secondAttribute"]
+- !private ["So29NSAnimatablePropertyContainerP", "secondItem"]
+- ["So18NSLayoutConstraintC", "Attribute"]
+- ["So18NSLayoutConstraintC", "Priority"]
+- ["So18NSLayoutConstraintC", "Relation"]
+- !private ["So18NSLayoutConstraintC", "constant"]
+- !private ["So18NSLayoutConstraintC", "firstAttribute"]
+- !private ["So18NSLayoutConstraintC", "firstItem"]
+- !private ["So18NSLayoutConstraintC", "init"]
+- !private ["So18NSLayoutConstraintC", "multiplier"]
+- !private ["So18NSLayoutConstraintC", "priority"]
+- !private ["So18NSLayoutConstraintC", "relation"]
+- !private ["So18NSLayoutConstraintC", "secondAttribute"]
+- !private ["So18NSLayoutConstraintC", "secondItem"]
+- ["So13NSLayoutGuideC", "deinit"]
+- ["So8NSObjectC", "Attribute"]
+- ["So8NSObjectC", "Priority"]
+- ["So8NSObjectC", "Relation"]
+- !private ["So8NSObjectC", "constant"]
+- !private ["So8NSObjectC", "firstAttribute"]
+- !private ["So8NSObjectC", "firstItem"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "multiplier"]
+- !private ["So8NSObjectC", "priority"]
+- !private ["So8NSObjectC", "relation"]
+- !private ["So8NSObjectC", "secondAttribute"]
+- !private ["So8NSObjectC", "secondItem"]
+- ["So8NSObjectP", "Attribute"]
+- ["So8NSObjectP", "Priority"]
+- ["So8NSObjectP", "Relation"]
+- !private ["So8NSObjectP", "constant"]
+- !private ["So8NSObjectP", "firstAttribute"]
+- !private ["So8NSObjectP", "firstItem"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "multiplier"]
+- !private ["So8NSObjectP", "priority"]
+- !private ["So8NSObjectP", "relation"]
+- !private ["So8NSObjectP", "secondAttribute"]
+- !private ["So8NSObjectP", "secondItem"]
+- ["So6NSViewC", "deinit"]
+- !private ["So16NSLayoutPrioritya", "init"]
+- !private ["SY", "bottom"]
+- !private ["SY", "centerX"]
+- !private ["SY", "centerY"]
+- !private ["SY", "equal"]
+- !private ["SY", "firstBaseline"]
+- !private ["SY", "greaterThanOrEqual"]
+- !private ["SY", "height"]
+- !private ["SY", "init"]
+- !private ["SY", "lastBaseline"]
+- !private ["SY", "leading"]
+- !private ["SY", "left"]
+- !private ["SY", "lessThanOrEqual"]
+- !private ["SY", "notAnAttribute"]
+- !private ["SY", "right"]
+- !private ["SY", "top"]
+- !private ["SY", "trailing"]
+- !private ["SY", "width"]
+- !private ["So16NSLayoutRelationV", "equal"]
+- !private ["So16NSLayoutRelationV", "greaterThanOrEqual"]
+- !private ["So16NSLayoutRelationV", "lessThanOrEqual"]
+- ["15SweetAutoLayout5XAxisV", "init"]
+- ["15SweetAutoLayout5YAxisV", "init"]
+- !private ["6AppKit01_abB23NumericRawRepresentableP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Attribute"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Priority"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Relation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "constant"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "firstAttribute"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "firstItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "multiplier"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "priority"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "relation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "secondAttribute"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "secondItem"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Attribute"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Priority"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Relation"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "constant"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "firstAttribute"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "firstItem"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "multiplier"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "priority"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "relation"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "secondAttribute"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "secondItem"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s20_SwiftNewtypeWrapperP", "init"]
+depends-nominal:
+- !private "So17NSLayoutAttributeV"
+- "s7CVarArgP"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "15SweetAutoLayout9DimensionV"
+- "SQ"
+- "SH"
+- "15SweetAutoLayout0C4ItemV"
+- "15SweetAutoLayout0C6RegionP"
+- "So29NSAnimatablePropertyContainerP"
+- "So18NSLayoutConstraintC"
+- "So13NSLayoutGuideC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So6NSViewC"
+- !private "So16NSLayoutPrioritya"
+- !private "SY"
+- !private "So16NSLayoutRelationV"
+- "15SweetAutoLayout5XAxisV"
+- "15SweetAutoLayout5YAxisV"
+- !private "6AppKit01_abB23NumericRawRepresentableP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s20_SwiftNewtypeWrapperP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Metal.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/AppKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/user0/Desktop/GITManage/SweetAutoLayout/.build/x86_64-apple-macosx/debug/SweetAutoLayout.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "735a3f51f78860a694a6fc9c84371789"

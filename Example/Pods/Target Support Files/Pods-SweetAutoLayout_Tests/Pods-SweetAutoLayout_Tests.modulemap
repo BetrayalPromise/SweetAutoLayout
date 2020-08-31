@@ -1,6 +1,0 @@
-framework module Pods_SweetAutoLayout_Tests {
-  umbrella header "Pods-SweetAutoLayout_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}
